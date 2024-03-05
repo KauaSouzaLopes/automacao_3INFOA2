@@ -7,3 +7,12 @@ A nota for menor que 6 ou se as presencas
 forem menor do que 75 e aprovado 
 caso contrário.
 '''
+
+nota = int(input("Digite a nota do aluno: "))
+presencas = int(input("Digite a porcentagem de presença do aluno: "))
+
+if (nota < 6) or (presencas < 75):
+    print("Reprovado")
+
+else:
+    print("Aprovado")
